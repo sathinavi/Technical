@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    int HH, MM;
+    printf("Enter time (HH:MM): ");
+    scanf("%d:%d", &HH, &MM);
+    (HH >= 0 && HH <= 23 && MM >= 0 && MM <= 59) ? printf("Time is valid\n") : printf("Time is not valid\n");
+    return 0;
+}
